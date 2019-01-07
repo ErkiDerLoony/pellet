@@ -19,7 +19,7 @@ public class SCC {
 	/**
 	 * Computes the strongly connected components of a graph. This implementation is based on Tarjan's algorithm
 	 */
-	public static <E> List<Set<EntityNode<E>>> computeSCC(ReachabilityGraph<E> graph) {
+	public static <E> List<Set<EntityNode<E>>> computeSCC(ReachabilityGraph graph) {
 		return new SCCComputer<E>().computeSCC(graph);
 	}
 
