@@ -11,6 +11,10 @@
 	<description>Pellet core module.</description>
 	<dependencies>
 		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.github.ansell.aterms</groupId>
 			<artifactId>aterm-java</artifactId>
 		</dependency>
